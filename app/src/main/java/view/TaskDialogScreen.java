@@ -60,7 +60,7 @@ public class TaskDialogScreen extends javax.swing.JDialog {
         jLabelToolBarTitle.setText("Tarefa");
 
         jLabelToolBarSave.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabelToolBarSave.setIcon(new javax.swing.ImageIcon(getClass().getResource("/check.png"))); // NOI18N
+        jLabelToolBarSave.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/check.png"))); // NOI18N
         jLabelToolBarSave.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabelToolBarSaveMouseClicked(evt);
